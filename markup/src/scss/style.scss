@@ -1,0 +1,32 @@
+@import "header";
+@import "main";
+@import "footer";
+@import "burgerMenu";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(54, 66, 77, 1);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+body {
+    background: #E5E5E5;
+}
+main {
+    padding-top: 45px;
+}
+
