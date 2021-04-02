@@ -646,7 +646,7 @@ nav {
      object-fit: contain;
 }
 
-.footer-links .links-socials img {
+.footer-links .links-socials a {
   margin-right: 12px;
   cursor: pointer;
 }
@@ -752,6 +752,9 @@ nav {
 /* контейнер меню */
 
 .menu__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   position: fixed;
   visibility: hidden;
   top: 82px;
@@ -759,11 +762,18 @@ nav {
   width: 300px;
   height: 100%;
   margin: 0;
-  padding: 80px 0;
-  list-style: none;
+  padding: 40px 0;
   text-align: center;
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu__box label {
+  margin: 0 0 20px 0;
+}
+
+.menu__box label li {
+  margin-left: 20px;
 }
 
 /* элементы меню */
